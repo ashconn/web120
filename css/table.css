@@ -1,0 +1,24 @@
+/* styles for my AIA table */
+
+table {
+    width:80%;
+    margin:auto;
+    border-collapse:collapse;
+    border-spacing:0px;
+}
+
+table.client {
+    margin-bottom:2em;
+}
+
+table.client th {
+    text-align:left;
+}
+
+tr:nth-of-type(odd) {
+    background-color:#ccc;
+}
+
+td,th {
+    border:1px solid #000000;
+}
