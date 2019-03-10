@@ -96,7 +96,7 @@ p.newsdate {
         height: 300px;
       }
 
-    #item1 {
+    #indexitem1, #item1, #item3, #item5, #citem1, #citem3, #citem5 {
         background-image: url(https://via.placeholder.com/300x150);
         display: inline-block;
         margin: 0 auto;
@@ -104,14 +104,14 @@ p.newsdate {
         height: 9.375em;
     }
 
-    p.idesc {
+    p.indexdesc, p.idesc, p.idesc3, p.idesc5 {
         font-family: 'Dosis', sans-serif;
         color: #FFF;
         display: inline-block;
         margin: 0 auto;
     }
 
-    #item2 {
+    #indexitem2, #item2, #item4, #item6, #citem2, #citem4, #citem6 {
         background-image: url(https://via.placeholder.com/300x150);
         display: inline-block;
         position: relative;
@@ -121,7 +121,7 @@ p.newsdate {
         height: 9.375em;
     }
     
-    p.idesc2 {
+    p.indexdesc2, p.idesc2, p.idesc4, p.idesc6 {
         font-family: 'Dosis', sans-serif;
         color: #FFF;
         display: inline-block;
@@ -170,19 +170,37 @@ p.newsdate {
         height: 9.375em;
       }
 
-    #item1 {
+    #indexitem1, #item1, #item3, #item5, #citem1, #citem3, #citem5 {
         background-image: url(https://via.placeholder.com/300x150);
-        display: block;
+        display: flex;
         margin-left: -17%;
         width: 18.750em;
         height: 9.375em;
     }
 
-    p.idesc {
+    p.indexdesc, p.idesc, p.idesc3, p.idesc5 {
         font-family: 'Dosis', sans-serif;
         color: #FFF;
-        display: block;
+        display: flex;
         margin: 0 auto;
+    }
+
+    #item2, #item4, #item6, #citem2, #citem4, #citem6 {
+        /* background-image: url(https://via.placeholder.com/300x150); */
+        display: none;
+        /* margin-left: -17%;
+        position: relative;
+        top: 20px;
+        width: 18.750em;
+        height: 9.375em; */
+    }
+    
+    p.idesc2, p.idesc4, p.idesc6 {
+        display: none;
+        /* font-family: 'Dosis', sans-serif;
+        position: relative;
+        color: #FFF;
+        margin: 0 auto; */
     }
 
     div.summary {
@@ -196,11 +214,11 @@ p.newsdate {
         overflow: scroll;
     }
 
-    #item2 {
+    #indexitem2 {
         display: none;
     }
 
-    p.idesc2 {
+    p.indexdesc2 {
         display: none;
     }
 

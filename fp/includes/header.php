@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<title>The Candle Store: Homepage</title>
+<title>The Candle Store</title>
 <meta name="viewport" content="width=device-width, inital-scale=1" />
 <meta name="robots" content="noindex,nofollow" />
 <meta charset="utf-8">

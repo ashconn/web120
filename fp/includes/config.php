@@ -16,10 +16,6 @@ switch(THIS_PAGE){
         $title = 'The Candle Store';
     break;
 
-    case 'catalog.php':
-        $title = 'TCS Catalog';
-    break;
-
     case 'main.php':
         $title = 'TCS - Main Scents';
     break;
@@ -28,20 +24,12 @@ switch(THIS_PAGE){
         $title = 'TCS - Custom Scents';
     break;
 
-    case 'events.php':
-        $title = 'Events';
-    break;
-
     case 'calendar.php':
         $title = 'Event Sign Up';
     break;
 
     case 'contact.php':
         $title = 'Contact Us';
-    break;
-
-    case 'about.php':
-        $title = 'About TCS';
     break;
 
     case 'social.php':

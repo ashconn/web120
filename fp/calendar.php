@@ -4,11 +4,11 @@
 <!-- END Header file here -->
 <!-- START LEFT COL -->
 <section>
-<a href="main.php" id="indexitem1"></a><a href="custom.php" id="indexitem2"></a><br>
-<p class="indexdesc">text text text text text text text text<br>
+<a href="catalog.php" id="item1"></a><a href="catalog.php" id="item2"></a><br>
+<p class="idesc">text text text text text text text text<br>
 text text text text text text text text<br>
 text text text text text text text text</p>
-<p class="indexdesc2">text text text text text text text text<br>
+<p class="idesc2">text text text text text text text text<br>
 text text text text text text text text<br>
 text text text text text text text text</p>
 </section>
