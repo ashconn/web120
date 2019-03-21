@@ -1,7 +1,31 @@
 /* start reCAPTCHA styles */
 
+div.form {
+  display: block;
+  text-align: center;
+}
+
+form {
+  background-color: #ABF2C3;
+  border: 1px solid #031520;
+  margin: auto;
+  display: inline-block;
+  text-align: left;
+  padding: 10px;
+}
+
 form>div {
-    margin:1em;
+    margin:8px;
+}
+
+/* Responsive form style */
+@media all and (max-width:767px) {
+  form {
+    background-color: #ABF2C3;
+    border: 1px solid #031520;
+    display: inline-block;
+    text-align: left;
+  }
 }
 
 /* writes to small text above reCAPTCHA upon failure */
@@ -40,5 +64,3 @@ legend {
   border-left: 1px solid #ccc;
   border-right: 1px solid #ccc;
 }
-
-/* end reCAPTCHA styles */

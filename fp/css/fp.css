@@ -9,7 +9,7 @@ html {
 
 div.wrapper {
     background-color:#1C512E;
-    overflow:auto;
+    overflow-x: hidden;
 }
 
 h1>a {
@@ -17,8 +17,8 @@ h1>a {
     color:#fff;
 }
 
-a {
-    color: #ACD5ED;
+a:visited {
+    color: #000;
 }
 
 /* Embed Responsive Rules */
@@ -63,17 +63,18 @@ section.wholepage {
     width:100%;
 }
 
- aside {	
+aside {	
     width: 980px;
     margin: 50px 100px 0px 100px;
     padding: 20px;
 }
 
-div>h1 {
+div>h1, div>h2 {
     font-family: 'Montserrat', sans-serif;
 }
 
-p.text {
+
+p.text, div>h4 {
     font-family: 'Dosis', sans-serif;
 }
 
@@ -88,11 +89,11 @@ p.newsdate {
 /* DESKTOP */
 @media all and (min-width:1280px) {	
     #logo {
-        background-image: url(https://via.placeholder.com/1200x300);
-        display: block;
+        background-image: url(https://via.placeholder.com/1090x300);
         margin: 0 auto;
+        display: block;
         text-indent: -9999px;
-        width: 1200px;
+        width: 1090px;
         height: 300px;
       }
 
@@ -137,8 +138,8 @@ p.newsdate {
         height: 15.625em;
         border: 1px solid #031520;
         background-color: #ABF2C3;
-        margin-right: -4px;
         padding: 10px;
+        margin-right: -4px;
     }
     
     div.news {
@@ -150,6 +151,14 @@ p.newsdate {
         background-color: #ABF2C3;
         padding: 10px;
         overflow: scroll;
+    }
+
+    div.contact, div.about, div.social {
+        display: inline-block;
+        vertical-align: top;
+        border: 1px solid #031520;
+        background-color: #ABF2C3;
+        padding: 10px;
     }
     
     /* Change background color of navigation on selected page */
@@ -212,6 +221,13 @@ p.newsdate {
         background-color: #ABF2C3;
         padding: 10px;
         overflow: scroll;
+    }
+
+    div.contact, div.about, div.social {
+        display: inline-block;
+        border: 1px solid #031520;
+        background-color: #ABF2C3;
+        padding: 10px;
     }
 
     #indexitem2 {
